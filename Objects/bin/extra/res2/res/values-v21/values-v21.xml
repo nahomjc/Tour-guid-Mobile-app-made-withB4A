@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item> 
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+    <style name="ItemBg">
+        <item name="android:background">@drawable/ripple_my_item</item>
+    </style>
+	<style name="UndoButtonStyle">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+	
+	<style name="Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">#FF407BF5</item>
+        <item name="colorPrimaryDark">#FF2761DB</item>
+        <item name="colorAccent">#FF407BF5</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+    </style>
+	
+	<style name="Light" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF407BF5</item>
+        <item name="colorPrimaryDark">#FF2761DB</item>
+        <item name="colorAccent">#FF407BF5</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+    </style>
+</resources>

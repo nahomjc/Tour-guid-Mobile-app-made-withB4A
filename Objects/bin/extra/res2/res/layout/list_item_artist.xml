@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/framelayout2"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+	<View
+		android:layout_width="match_parent"
+		android:id="@+id/divider"
+		android:layout_height="1dp"
+		android:background="@android:color/white"/>
+	
+    <TextView
+        android:id="@+id/list_item_artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:gravity="center_vertical"
+        tools:text="Artist Name" />
+
+</FrameLayout>
